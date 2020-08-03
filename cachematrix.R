@@ -8,7 +8,7 @@
 #set the value of the inverse matrix
 #get the value of the inverse matrix
 
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
                 x <<- y
@@ -39,3 +39,4 @@ cacheSolve <- function(x, ...) {
         m
 }
 
+dbec792a237b340a7ee3daa3c0dcc6a43fffd2c2
